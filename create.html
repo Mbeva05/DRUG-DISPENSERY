@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Account</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    
+  <h1>Create Account</h1>
+
+  <form action="process_registration.php" method="POST">
+    <label for="ssn">SSN:</label>
+    <input type="text" id="ssn" name="ssn" required><br><br>
+
+    <label for="username">Username:</label>
+    <input type="text" id="username" name="username" required><br><br>
+
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password" required><br><br>
+
+    <label for="phone">Phone No:</label>
+    <input type="text" id="phone" name="phone" required><br><br>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required><br><br>
+
+    <label>Role:</label>
+    <input type="radio" id="doctor" name="role" value="doctor" required>
+    <label for="doctor">Doctor</label>
+
+    <input type="radio" id="patient" name="role" value="patient" required>
+    <label for="patient">Patient</label>
+
+    <input type="radio" id="pharmacy" name="role" value="pharmacy" required>
+    <label for="pharmacy">Pharmacy</label><br><br>
+
+    <input type="submit" value="Create"><br><br>
+  </form>
+
+  <a href="forgot_password.html">Forgot Password?</a><br><br>
+  <a href="log-in.html">Sign In</a>
+
+</body>
+</html>
+
+</body>
+</html>
